@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Borders</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      
+      background-color: #f9f9f9;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 50px;
+    }
+   
+    
+    .border-box {
+      width: 150px;
+      height: 70px;
+      display: flex;
+   
+      font-size: 16px;
+      color: #333;
+    }
+    .ridge { border: 4px ridge #006400; }
+    .dotted { border: 4px dotted red; }
+    .outset { border: 4px outset #8B4513; }
+    .groove { border: 4px groove maroon; }
+    .inset { border: 4px inset purple; }
+    .double { border: 4px double gold; }
+    .dashed { border: 4px dashed blue; }
+    .solid { border: 4px solid green; }
+  </style>
+</head>
+<body>
+  <h1>CSS Border</h1>
+  <div class="container">
+    <div class="border-box ridge"></div>
+    <br>
+    <div class="border-box dotted"></div>
+    <br>
+    <div class="border-box outset"></div>
+    <br>
+    <div class="border-box groove"></div>
+    <br>
+    <div class="border-box inset"></div>
+    <br>
+    <div class="border-box double"></div>
+    <br>
+    <div class="border-box dashed"></div>
+    <br>
+    <div class="border-box solid"></div>
+    <br>
+  </div>
+</body>
+</html>
